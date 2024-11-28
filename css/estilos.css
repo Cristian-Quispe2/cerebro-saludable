@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h5 {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.feature-icon {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+#navbar-title {
+    font-size: 50px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-link {
+    color: #ff0000 !important;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 992px) {
+    #navbar-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar-title {
+        font-size: 20px;
+    }
+}
+
+.footer {
+    background-color: #1572cf;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.contactos-container {
+    display: flex;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contacto-item {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    margin-left: 20px;
+    color: rgb(20, 94, 255);
+    font-size: 40px;
+}
+
+.contacto-item h3 {
+    margin-bottom: 10px;
+    color: rgb(6, 123, 194);
+    font-size: 35px;
+}
+
+.contacto-item p {
+    margin: 5px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 300px;
+}
